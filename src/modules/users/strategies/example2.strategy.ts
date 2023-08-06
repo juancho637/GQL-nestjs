@@ -6,7 +6,7 @@ export class Example2Strategy implements StatusStrategyInterface {
   constructor(private readonly logger: Logger) {}
 
   async execute(): Promise<string> {
-    this.logger.log('[Example2Strategy] Example logger');
+    this.logger.log('[Example2Strategy] Logger of example');
 
     return 'Example2Strategy';
   }

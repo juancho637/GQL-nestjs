@@ -6,6 +6,10 @@
 
 - refactor items module
 
+## [0.1.3]
+
+- change logger message
+
 ## [0.1.2]
 
 - add status strategy 3
