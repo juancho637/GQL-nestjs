@@ -4,7 +4,11 @@ import { User } from './entities';
 import { UsersService } from './users.service';
 import { UsersResolver } from './users.resolver';
 import { StatusFactory } from './factories/status.factory';
-import { Example1Strategy, Example2Strategy } from './strategies';
+import {
+  Example1Strategy,
+  Example2Strategy,
+  Example3Strategy,
+} from './strategies';
 
 @Module({
   imports: [TypeOrmModule.forFeature([User])],
@@ -15,6 +19,7 @@ import { Example1Strategy, Example2Strategy } from './strategies';
     Logger,
     Example1Strategy,
     Example2Strategy,
+    Example3Strategy,
   ],
   exports: [UsersService],
 })

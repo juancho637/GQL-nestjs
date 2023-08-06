@@ -2,6 +2,10 @@
 
 - refactor items module
 
+## [0.1.2]
+
+- add status strategy 3
+
 ## [0.1.1]
 
 - add status strategies...
