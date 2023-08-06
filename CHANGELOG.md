@@ -1,6 +1,6 @@
 ## [0.2.0]
 
--
+- refactor items module
 
 ## [0.1.0]
 

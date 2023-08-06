@@ -7,7 +7,7 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
 import { TypeOrmConfigService } from './providers';
 // import { TodosModule } from './todos/todos.module';
-import { ItemsModule } from './items/items.module';
+import { ItemsModule } from './modules/items/items.module';
 import { UsersModule } from './modules/users/users.module';
 import { AuthModule } from './modules/auth/auth.module';
 
