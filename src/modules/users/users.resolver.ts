@@ -31,6 +31,13 @@ export class UsersResolver {
   //   return await this.usersService.me();
   // }
 
+  @Query(() => String)
+  async me(
+    @Args('strategy', { type: () => String }) strategy: string,
+  ): Promise<string> {
+    return await this.usersService.me(strategy);
+  }
+
   // @Mutation(() => User)
   // updateUser(@Args('updateUserInput') updateUserInput: UpdateUserInput) {
   //   return this.usersService.update(updateUserInput.id, updateUserInput);

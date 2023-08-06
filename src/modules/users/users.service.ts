@@ -58,6 +58,11 @@ export class UsersService {
   // async me(): Promise<User> {
   //   return;
   // }
+  async me(strategy: string): Promise<string> {
+    const statusStrategy = this.statusFactory.getStrategy(strategy);
+
+    return await statusStrategy.execute();
+  }
 
   async findOneByEmail(email: string): Promise<User> {
     try {

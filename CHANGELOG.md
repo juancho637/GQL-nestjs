@@ -2,6 +2,10 @@
 
 - refactor items module
 
+## [0.1.1]
+
+- add status strategies...
+
 ## [0.1.0]
 
 - add GraphQL and TypeORM
