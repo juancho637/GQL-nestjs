@@ -1,5 +1,9 @@
 ## [log]
 
+-
+
+## [0.3.0]
+
 - add product module
 
 ## [0.2.0]
