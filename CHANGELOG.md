@@ -2,6 +2,10 @@
 
 -
 
+## [0.3.1]
+
+- change find all message
+
 ## [0.3.0]
 
 - add product module
